@@ -19,10 +19,10 @@ function NavBar() {
         <li>About</li>
       </ul>
       <div className='search-box'>
-        <input type='text' placeholder='Search' />
-        <img src={search_icon1} alt='Search' />
-
+      <input type='search' placeholder='Search' />
+      <img src={search_icon1} alt='Search' />
       </div>
+
       <div className="social-icons-container">
       <HiShoppingBag size="32px" className="navcart" />
       <FaUserCircle size="32px" className="navcart" />
