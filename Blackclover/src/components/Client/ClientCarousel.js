@@ -5,35 +5,42 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import testimonial1 from '../../assets/testimonial-1.jpg';
-import testimonial2 from '../../assets/testimonial-2.jpg';
+import testimonial2 from '../../assets/mn2.jpg';
 import testimonial3 from '../../assets/testimonial-3.jpg';
-import testimonial4 from '../../assets/testimonial-4.jpg';
+import testimonial4 from '../../assets/mn3.jpg';
+import testimonial5 from '../../assets/mn4.jpg';
 
 function Client() {
   const testimonials = [
     {
       image: testimonial1,
-      text: 'Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum.',
-      name: 'Santa Claus',
-      profession: 'Christmas Enthusiast'
+      text: 'It blends seamlessly into my skin and provides a flawless finish that lasts all day. The coverage is buildable, so I can get a natural look during the day.',
+      name: 'Amanda L',
+      profession: 'Makeup Artist'
     },
     {
       image: testimonial2,
-      text: 'Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum.',
-      name: 'Santa Claus',
-      profession: 'Christmas Enthusiast'
+      text: 'This foundation is very good but not perfect. It provides good coverage and has a nice finish, but it tends to feel a bit heavy on my skin after a few hours.',
+      name: 'Rita',
+      profession: 'Beauty Blogger'
     },
     {
       image: testimonial3,
-      text: 'Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum.',
-      name: 'Santa Claus',
-      profession: 'Christmas Enthusiast'
+      text: 'I really like this foundation! It has a lightweight formula that feels comfortable on my skin, and gives me a dewy, radiant finish.',
+      name: 'Clara M',
+      profession: 'Skincare Specialist'
     },
     {
       image: testimonial4,
-      text: 'Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum.',
-      name: 'Santa Claus',
-      profession: 'Christmas Enthusiast'
+      text: 'I had high hopes for this foundation, but it didn\'t work out for me. The coverage is too sheer for my liking, and it didn\'t cover my blemishes well.',
+      name: 'Dana B',
+      profession: 'Beauty Enthusiast'
+    },
+    {
+      image: testimonial5,
+      text: 'This foundation exceeded my expectations! It provides excellent coverage without feeling heavy, and it stays put all day long.',
+      name: 'Sophia K',
+      profession: 'Makeup Artist'
     }
   ];
 
@@ -65,7 +72,7 @@ function Client() {
     <div className="testimonial wow fadeInUp" data-wow-delay="0.0s">
       <div className="container">
         <div className="section-header text-center">
-          <h2>Our Clients Say!</h2>
+          <h2>Our Client Say!</h2>
         </div>
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (

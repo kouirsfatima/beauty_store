@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import Products from './components/Product/Products'
 import Welcome from './components/Welcome/Welcome'
 import ClientCarousel from './components/Client/ClientCarousel';
+import Update from './components/update/Update'
 
 
 const App = () => {
@@ -14,7 +15,8 @@ const App = () => {
       <HomeBanner/>
       <Welcome/>
       <Products/>
-      <ClientCarousel />
+      <ClientCarousel/>
+       <Update/>
       <Footer/>
     </div>
   )
