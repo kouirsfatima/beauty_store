@@ -1,16 +1,17 @@
 .testimonial {
   position: relative;
-  /* padding: 45px 0; */
 
 }
 
 .testimonial .container {
-  padding: 0;
-  margin-left: 170px;
+  padding-bottom: 200px;
+  margin-left: 0;
+  padding-left: 60px;
+  padding-right: 60px;
 
 }
 .testimonial .container h2 {
-  margin-right: 500px;
+  margin-right: 60px;
   margin-bottom: 50px;
   font-size: xx-large;
 }
@@ -75,12 +76,12 @@
 }
 
 
-/* .testimonials-carousel {
+.testimonials-carousel {
   display: flex;
   justify-content: center;
   align-items:start;
   flex-wrap: wrap;
-} */
+}
 
 .testimonial-item {
   max-width:450px;
@@ -94,7 +95,7 @@
   text-align: center;
   margin-top: 30px;
   list-style: none;
-  padding: 0;
+
 }
 
 .testimonial .slick-dots li {
@@ -120,13 +121,12 @@
 .slick-dots {
   position: absolute;
   bottom: 20px; /* Adjust as needed */
-  left:44%;
+  left:49%;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  padding: 0;
 }
 
 .slick-dots li {
