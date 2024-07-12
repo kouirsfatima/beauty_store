@@ -1,0 +1,138 @@
+.testimonial {
+  position: relative;
+
+}
+
+.testimonial .container {
+  padding-bottom: 200px;
+  margin-left: 0;
+  padding-left: 60px;
+  padding-right: 60px;
+
+}
+.testimonial .container h2 {
+  margin-right: 60px;
+  margin-bottom: 50px;
+  font-size: xx-large;
+}
+
+
+.testimonial .testimonial-item {
+  position: relative;
+  margin: 0 15px;
+  margin-left: 500px;
+  text-align: center;
+}
+
+.testimonial .testimonial-img {
+  position: relative;
+  margin-bottom: 15px;
+  z-index: 1;
+}
+
+.testimonial .testimonial-item img {
+  margin: 0 auto;
+  width: 120px;
+  padding: 13px;
+  border-radius: 100px;
+  border: 1px solid rgba(0, 0, 0, .07);
+  background:  rgb(241, 241, 237);
+  transition: .5s;
+}
+
+.testimonial .testimonial-text {
+  position: relative;
+  margin-top: -70px;
+  padding: 75px 25px 25px 25px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, .07);
+}
+
+.testimonial .testimonial-item p {
+  font-size: 16px;
+  color: #666666;
+}
+
+.testimonial .testimonial-text h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.testimonial .testimonial-text h4 {
+  color: #D4AB59;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.testimonial .owl-item.center img {
+  border-color: transparent;
+}
+
+.testimonial .owl-item.center .testimonial-text {
+  background: #555;
+}
+
+
+.testimonials-carousel {
+  display: flex;
+  justify-content: center;
+  align-items:start;
+  flex-wrap: wrap;
+}
+
+.testimonial-item {
+  max-width:450px;
+  margin: 0 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+/* ............................. */
+
+.testimonial .slick-dots {
+  text-align: center;
+  margin-top: 30px;
+  list-style: none;
+
+}
+
+.testimonial .slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.testimonial .slick-dots li button {
+  font-size: 12px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #100f0f;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.testimonial .slick-dots li.slick-active button {
+  background-color: #000000;
+}
+/* Slick Dots Styles */
+.slick-dots {
+  position: absolute;
+  bottom: 20px; /* Adjust as needed */
+  left:49%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+/* .slick-dots button:hover,
+.slick-dots button.slick-active {
+  background-color: #333;
+} */
