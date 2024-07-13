@@ -6,38 +6,28 @@ import image1 from '../../assets/po2.jpeg';
 import image2 from '../../assets/po4.webp';
 import image3 from '../../assets/po7.jpeg';
 import image4 from '../../assets/pro1.jpeg';
-import image5 from '../../assets/age_treatment_face_serum_b3a29b4b4d034ba1ae55fa21c8b3d80e_grande.webp';
 
 function ProductGallery() {
   const [mainImage, setMainImage] = useState(image1); // Initialize main image state
-  const thumbnails = [image1, image2, image3, image4, image5]; // Array of thumbnail images
+  const thumbnails = [image1, image2, image3, image4]; // Array of thumbnail images
 
   const handleThumbnailClick = (index) => {
     setMainImage(thumbnails[index]); // Update main image based on thumbnail click
   };
 
   return (
-    <div className="default gallery">
+    <div className="gallery">
       <div className="main-img">
         <img className="active" src={mainImage} alt="product-img" />
         {/* You can add additional main images here */}
       </div>
       <div className="thumb-list">
         {thumbnails.map((thumbnail, index) => (
-          <div key={index} className={`thumbnail ${index === 0 ? 'active' : ''}`} onClick={() => handleThumbnailClick(index)}>
+          <div key={index} className={`thumbnail ${mainImage === thumbnail ? 'active' : ''}`} onClick={() => handleThumbnailClick(index)}>
             <img src={thumbnail} alt={`product-thumbnail-${index}`} />
           </div>
         ))}
       </div>
-    </div>
-  );
-}
-
-function Lightbox() {
-  // Placeholder for lightbox functionality if needed
-  return (
-    <div className="lightbox">
-      {/* Lightbox content */}
     </div>
   );
 }
@@ -59,20 +49,9 @@ function ProductDetails() {
         </div>
         <div className="prev-price">$250.00</div>
       </div>
-      <div className="add-to-cart-container">
-        {/* Add functionality for cart interactions */}
-        <div className="counter">
-          {/* Add counter functionality */}
-        </div>
-        <button className="add-to-cart">
-          <span>
-            <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg">
-              {/* Add SVG content */}
-            </svg>
-          </span>
-          <span>Add to cart</span>
-        </button>
-      </div>
+      <button className="add-to-cart">
+        <span>Add to cart</span>
+      </button>
     </div>
   );
 }
@@ -85,7 +64,6 @@ function ProductPage() {
       </header>
       <section className="main">
         <ProductGallery />
-        <Lightbox />
         <ProductDetails />
       </section>
     </div>
