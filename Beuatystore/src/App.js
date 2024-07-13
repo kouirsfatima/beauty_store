@@ -1,25 +1,45 @@
-import React from 'react'
-import NavBar from './components/Navbar/NavBar'
-import HomeBanner from './components/banner/HomeBanner'
-import Footer from './components/Footer/Footer'
-import Products from './components/Product/Products'
-import Welcome from './components/Welcome/Welcome'
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import NavBar from './components/Navbar/NavBar';
+import HomeBanner from './components/banner/HomeBanner';
+import Footer from './components/Footer/Footer';
+import Products from './components/Product/Products';
+import Welcome from './components/Welcome/Welcome';
 import ClientCarousel from './components/Client/ClientCarousel';
-import Update from './components/update/Update'
-
+import Skinteps from './components/skinteps/Skinteps';
+import ProductsPage from './components/ProductsPage/ProductsPage';
+import About from './components/About/About';
 
 const App = () => {
   return (
-    <div className='container'>
-      <NavBar/>
-      <HomeBanner/>
-      <Welcome/>
-      <Products/>
-      <ClientCarousel/>
-       <Update/>
-      <Footer/>
-    </div>
-  )
-}
+    <BrowserRouter>
+      <div className='container'>
+        <NavBar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/products' element={<ProductsPage />} />
+          <Route path='/about' element={<AboutPage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
+  );
+};
 
-export default App
+const Home = () => (
+  <>
+    <HomeBanner />
+    <Welcome />
+    <Products />
+    <ClientCarousel />
+    <Skinteps />
+  </>
+);
+
+const AboutPage = () => (
+  <>
+    <About />
+  </>
+);
+
+export default App;

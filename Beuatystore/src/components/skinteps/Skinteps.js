@@ -2,7 +2,7 @@ import React from 'react';
 import newUpdate2 from '../../assets/1.png';
 import newUpdate3 from '../../assets/2.png';
 import newUpdate1 from '../../assets/3.png';
-import './update.css'; // Import CSS for styling
+import './skintips.css'; // Import CSS for styling
 
 function UpdateNews() {
   return (

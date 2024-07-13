@@ -3,6 +3,11 @@ import './Products.css';
 import { store } from '../../productstore/store'; // Import your store array
 
 const Products = () => {
+    const handleBuyNow = (productId) => {
+        // Implement your buy now logic here, e.g., redirect to checkout or add to cart
+        console.log(`Buy Now clicked for product with id ${productId}`);
+    };
+
     return (
         <section className="trending-product" id="trending-product">
             <div>
@@ -14,7 +19,8 @@ const Products = () => {
                         <img src={product.primaryImage} alt={product.name} />
                         <div className="price">
                             <h4>{product.name}</h4>
-                            <p>{`$${product.price}`}</p>
+                            <p>${product.price}</p>
+                            <button className="btn btn-primary" onClick={() => handleBuyNow(product.id)}>ADD TO CART</button>
                         </div>
                     </div>
                 ))}

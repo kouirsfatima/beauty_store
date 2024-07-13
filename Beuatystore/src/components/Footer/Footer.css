@@ -46,7 +46,7 @@
   }
 
   .social-icon:hover {
-    color:#D4AB59;
+    color:#5d5443;
     transform: scale(1.1);
   }
 
@@ -55,6 +55,7 @@
     background-color: #F5F5FF;
     text-align: center;
     padding: 20px;
+    font-size: larger;
 }
 .end-text p{
     color: #111;

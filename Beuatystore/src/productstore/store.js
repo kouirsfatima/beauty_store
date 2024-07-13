@@ -9,11 +9,11 @@ import imag9 from '../assets/p30.jpg';
 import imag10 from '../assets/OROGOLD-White-Gold-24K-Classic-Hand-and-Body-Cream-Font-1.png';
 import imag11 from '../assets/p40.jpg';
 import imag12 from '../assets/prudui3.png';
-import imag13 from '../assets/p50.jpg';
+import imag13 from '../assets/thpro2.png';
 
 export const store = [
     {
-        id: "1",
+        id: 1,
         name: "AVACODA CREAM",
         price: 129,
         type: "Products",
