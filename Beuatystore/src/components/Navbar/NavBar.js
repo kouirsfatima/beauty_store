@@ -43,8 +43,8 @@ function NavBar() {
       </div>
 
       <div className="social-icons-container">
-        <HiShoppingBag size="32px" className="navcart" />
-        <FaUserCircle size="32px" className="navcart" />
+        <Link to="/cart"><HiShoppingBag size="32px" className="navcart" /></Link>
+        <Link to="/login"><FaUserCircle size="32px" className="navLogin" /></Link>
       </div>
     </div>
   );

@@ -1,0 +1,76 @@
+/* Checkout page container */
+.checkout-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Checkout form container */
+.checkout {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+/* Checkout form title */
+.checkout-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Checkout form sections */
+.checkout-section {
+    margin-bottom: 20px;
+}
+
+/* Checkout form section title */
+.checkout-section-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Checkout form input fields */
+.checkout-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Checkout form input group for card details */
+.checkout-input-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* Checkout form button */
+.checkout-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Checkout form back link */
+.checkout-back {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .checkout {
+        width: 90%;
+    }
+}

@@ -45,9 +45,8 @@ ul li {
 
 }
 
-
 .navbar ul li a:hover {
-  color:#D4AB59; 
+  color:#D4AB59;
 }
 
 .search-box{
@@ -77,13 +76,23 @@ ul li {
     cursor: pointer;
 }
 
-  .social-icon, .navcart {
-    color: #555;
-    transition: color 0.3s ease, transform 0.3s ease;
-    margin-left: 20px;
+
+.social-icon, .navcart {
+  color: #555;
+  transition: color 0.3s ease, transform 0.3s ease;
+  margin-left: 20px;
+}
+.social-icon, .navLogin {
+  color: #555;
+  transition: color 0.3s ease, transform 0.3s ease;
+  margin-left: 20px;
+}
+  .social-icon:hover, .navcart:hover {
+    color:#D4AB59;
+  transform: scale(1.1);
   }
 
-  .social-icon:hover, .navcart:hover {
+  .social-icon:hover, .navLogin:hover {
     color:#D4AB59;
     transform: scale(1.1);
   }
