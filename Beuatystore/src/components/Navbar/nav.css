@@ -109,3 +109,17 @@ ul li {
   .navbar.sticky  .logo {
     margin-left: 90px ;
   }
+  .cart-icon {
+    position: relative; /* Ensure relative positioning for the cart icon */
+  }
+
+  .cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #dc3545; /* Red color */
+    color: white;
+    padding: 4px 8px;
+    border-radius: 50%;
+    font-size: 12px;
+  }
