@@ -1,10 +1,17 @@
 import React, { useContext } from 'react';
 import { CartContext } from '../Cart/CartContext';
-import './cart.css'; // Import the CSS file
-import { Link } from 'react-router-dom';
+import pymentmethode1 from '../../assets/pymrntmethod1.jpeg';
+import pymentmethode2 from '../../assets/pymenntmethod2.jpeg';
+import pymentmethode3 from '../../assets/pymentmethode3.jpeg';
+import './cart.css';
 
 const Cart = () => {
-    const { cart } = useContext(CartContext);
+    const { cart, removeFromCart } = useContext(CartContext);
+
+    const handleCheckout = () => {
+        // Implement checkout logic here
+        console.log('Checkout');
+    };
 
     // Calculate total price of items in cart
     const cartTotal = cart.reduce((total, item) => total + item.price, 0);
@@ -24,13 +31,20 @@ const Cart = () => {
                                     <h4>{item.name}</h4>
                                     <p>${item.price}</p>
                                 </div>
+                                <button className="remove-btn" onClick={() => removeFromCart(item.id)}>Remove</button>
                             </li>
                         ))}
                     </ul>
                     <div className="cart-summary">
                         <p className="cart-total">Total: ${cartTotal.toFixed(2)}</p>
-                        <Link to="/checkout" className="btn btn-primary checkout-btn">Checkout</Link>
                     </div>
+                    <h2>Payment Method</h2>
+                    <div className="payment-method">
+                        <img src={pymentmethode1} alt="Payment method 1" />
+                        <img src={pymentmethode2} alt="Payment method 2" />
+                        <img src={pymentmethode3} alt="Payment method 3" />
+                    </div>
+                    <button className="checkout-btn" onClick={handleCheckout}>Checkout</button>
                 </>
             )}
         </div>
