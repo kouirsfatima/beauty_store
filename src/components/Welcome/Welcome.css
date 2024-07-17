@@ -7,10 +7,6 @@
     /* border-style: solid; */
     box-sizing: border-box;
 }
-* {
-    scrollbar-width: auto;
-    scrollbar-color: #8f54a0 #ffffff;
-}
 
 .heroPicHold {
     margin-top: 4rem;
@@ -50,19 +46,11 @@ img {
     max-width: 100%;
     height: auto;
 }
-*, *::before, ::after {
-    border-color: var(--chakra-colors-chakra-border-color);
-    word-wrap: break-word;
-}
-*, *::before, *::after {
-    border-width: 0;
-    /* border-style: solid; */
-    box-sizing: border-box;
-}
 * {
-    scrollbar-width: auto;
+    scrollbar-width:none ;
     scrollbar-color: #8f54a0 #ffffff;
 }
+
  .text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;

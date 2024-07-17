@@ -1,25 +1,27 @@
 .similar-products {
-    padding: 90px;
+    padding: 40px;
   }
 
   .similar-products h3 {
     margin-top: 50px; /* Adjusted margin for better spacing */
     text-align: center; /* Center align the heading */
-    font-size: 1.5em;
+    font-size: 2.0em;
   }
 
   .similar-products-list {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 40px;
     margin-top: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
   }
 
   .similar-product {
     text-align: center;
-    width: 300px;
-    padding: 10px;
+    width: 350px;
+    padding: 30px;
   }
 
   .similar-product img {
@@ -34,7 +36,10 @@
   }
 
   .similar-product p {
-    color: #888;
+    color: #191919;
+    font-size: 1.1em;
+
+
   }
 
   .btn {
