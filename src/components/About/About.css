@@ -17,7 +17,15 @@
     width: 420px;
     height: auto;
     transform: translateY(50px);
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-bottom: 90px;
+    background-color:white;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+
 }
+
 .about-right {
     width: 54%;
 }

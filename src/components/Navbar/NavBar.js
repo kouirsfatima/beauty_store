@@ -31,7 +31,9 @@ function NavBar() {
 
   return (
     <div className={`navbar ${isSticky ? 'sticky' : ''}`}>
-      <img src={logo} alt='Logo' className='logo' />
+      <Link to="/">
+        <img src={logo} alt='Logo' className='logo' />
+      </Link>
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/products">Products</Link></li> {/* Corrected the route path */}
@@ -51,5 +53,3 @@ function NavBar() {
 }
 
 export default NavBar;
-
-
