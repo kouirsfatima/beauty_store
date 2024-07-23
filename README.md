@@ -1,6 +1,6 @@
 # Welcome to beautystore Frontend
 
-![Logo](./Design%20sans%20titre%20(5).png)
+![Logo](../beauty_store/public/images/logo.png)
 
 Welcome to Beauty Store, your only destination for skin care products! Our mission is to offer you the best selection of skin care products, sustainably sourced and presented with care. We guarantee the highest levels of quality and authenticity in every product.
 
