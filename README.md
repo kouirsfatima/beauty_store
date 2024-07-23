@@ -41,7 +41,7 @@ Explore our website and discover the natural goodness our store has to offer. Wh
 2. **Clone the repository into the created React application:**
 
     ```bash
-    git clone https://github.com/medwf/beautystore-Frontend.git .
+    git clone https://github.com/kouirsfatima/beauty_store.git.
     ```
 
 3. **Install dependencies:**
@@ -55,7 +55,7 @@ Explore our website and discover the natural goodness our store has to offer. Wh
     Create a `.env` file in the root directory and set the following variables:
 
     ```env
-    REACT_APP_API_URL=http://localhost:5000/api/v1
+    REACT_APP_API_URL=http://localhost:3000/
     ```
 
 5. **Start the application:**
@@ -76,4 +76,4 @@ Explore our website and discover the natural goodness our store has to offer. Wh
 
 ## About Me
 
-- **WAFI Mohamed:** [GitHub](https://github.com/medwf) / [X](https://twitter.com/medwf) / [LinkedIn](https://www.linkedin.com/in/medwf)
+- **fatima ez_zahra kouirs:** [GitHub](https://github.com/kouirsfatima) /  [LinkedIn](https://www.linkedin.com/in/fatima-ez-zahra-kouirs-a97744227/)
