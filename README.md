@@ -1,16 +1,12 @@
-Certainly! Here’s the updated README file with the name changed to "beautystore":
+# 🦋 Welcome to beautystore Frontend
 
----
+![Logo](path/logo2.png)
 
-# 🌿 Welcome to beautystore Frontend 🌿
+Welcome to Beauty Store, your only destination for skin care products! Our mission is to offer you the best selection of skin care products, sustainably sourced and presented with care. We guarantee the highest levels of quality and authenticity in every product.
 
-**beautystore Logo**
+Explore our website and discover the natural goodness our store has to offer. Whether you're looking for healthy skin, beauty, or delicious food, we have products that are good for you and the planet.
 
-Welcome to beautystore, your one-stop destination for premium organic products in Morocco! Our mission is to bring you the finest selection of bio products, sourced sustainably and delivered with care. From the rich essence of argan oil to a diverse range of organic goods, we ensure the highest quality and authenticity in every product.
-
-Explore our website and discover the natural goodness that beautystore has to offer. Whether you're looking for health, beauty, or culinary delights, we've got you covered with products that are good for you and the planet.
-
-Join us on this journey towards a healthier, more sustainable lifestyle. Happy shopping!
+Join us on this journey towards a healthier and more sustainable lifestyle. Happy shopping!
 
 ## Features
 
@@ -41,7 +37,7 @@ Join us on this journey towards a healthier, more sustainable lifestyle. Happy s
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/medwf/beautystore-Frontend.git
+    git clone https://github.com/kouirsfatima/beauty_store.git
     cd beautystore-Frontend
     ```
 
@@ -116,8 +112,4 @@ Join us on this journey towards a healthier, more sustainable lifestyle. Happy s
 
 ## About Me
 
-- fatima zahra kouirese:** [GitHub](https://github.com/medwf) / [X](https://twitter.com/medwf) / [LinkedIn](https://www.linkedin.com/in/medwf)
-
----
-
-Is there anything else you would like to modify or add?
+- **WAFI Mohamed:** [GitHub](https://github.com/medwf) / [X](https://twitter.com/medwf) / [LinkedIn](https://www.linkedin.com/in/medwf)
