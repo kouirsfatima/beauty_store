@@ -1,6 +1,6 @@
 # 🦋 Welcome to beautystore Frontend
 
-![Logo](path/logo2.png)
+![Logo](../../fati/beauty_store/logo2.png)
 
 Welcome to Beauty Store, your only destination for skin care products! Our mission is to offer you the best selection of skin care products, sustainably sourced and presented with care. We guarantee the highest levels of quality and authenticity in every product.
 
@@ -30,7 +30,6 @@ Join us on this journey towards a healthier and more sustainable lifestyle. Happ
 ### Prerequisites
 
 - Node.js and npm installed
-- (Optional) Docker and Docker-Compose for containerized setup
 
 ### Steps
 
@@ -52,7 +51,7 @@ Join us on this journey towards a healthier and more sustainable lifestyle. Happ
     Create a `.env` file in the root directory and set the following variables:
 
     ```env
-    REACT_APP_API_URL=http://localhost:5000/api/v1
+    REACT_APP_API_URL=http://localhost:3000/
     ```
 
 4. **Start the application:**
@@ -71,44 +70,6 @@ Join us on this journey towards a healthier and more sustainable lifestyle. Happ
 
     This will create a production-ready build of the application in the `build` directory.
 
-### Using Docker-Compose (Optional)
-
-1. **Build and Start the Containers:**
-
-    ```bash
-    docker-compose up --build
-    ```
-
-    This command will:
-
-    - Build the React frontend application.
-    - Start the frontend service.
-
-2. **Managing Containers:**
-
-    - To stop the containers, run:
-
-        ```bash
-        docker-compose stop
-        ```
-
-    - To delete all containers, run:
-
-        ```bash
-        docker-compose down
-        ```
-
-    - To rebuild and start the containers, run:
-
-        ```bash
-        docker-compose up --build
-        ```
-
-    - To start containers after stopping, run:
-
-        ```bash
-        docker-compose start -d
-        ```
 
 ## About Me
 
