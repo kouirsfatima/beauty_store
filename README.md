@@ -1,12 +1,11 @@
 # 🦋 Welcome to beautystore Frontend
 
-![Logo](../beauty_store/logo2.png)
+![Logo](./logo2.png)
 
 Welcome to Beauty Store, your only destination for skin care products! Our mission is to offer you the best selection of skin care products, sustainably sourced and presented with care. We guarantee the highest levels of quality and authenticity in every product.
 
 Explore our website and discover the natural goodness our store has to offer. Whether you're looking for healthy skin, beauty, or delicious food, we have products that are good for you and the planet.
 
-Join us on this journey towards a healthier and more sustainable lifestyle. Happy shopping!
 
 ## Features
 
@@ -33,28 +32,34 @@ Join us on this journey towards a healthier and more sustainable lifestyle. Happ
 
 ### Steps
 
-1. **Clone the repository:**
+1. **Create a new React application:**
 
     ```bash
-    git clone https://github.com/kouirsfatima/beauty_store.git
-    cd beautystore-Frontend
+    npx create-react-app beauty_store
+    cd beauty_store
     ```
 
-2. **Install dependencies:**
+2. **Clone the repository into the created React application:**
+
+    ```bash
+    git clone https://github.com/medwf/beautystore-Frontend.git .
+    ```
+
+3. **Install dependencies:**
 
     ```bash
     npm install
     ```
 
-3. **Set up environment variables:**
+4. **Set up environment variables:**
 
     Create a `.env` file in the root directory and set the following variables:
 
     ```env
-    REACT_APP_API_URL=http://localhost:3000/
+    REACT_APP_API_URL=http://localhost:5000/api/v1
     ```
 
-4. **Start the application:**
+5. **Start the application:**
 
     ```bash
     npm start
@@ -62,14 +67,13 @@ Join us on this journey towards a healthier and more sustainable lifestyle. Happ
 
     This will start the development server and open the application in your default browser.
 
-5. **Building the application for production:**
+6. **Building the application for production:**
 
     ```bash
     npm run build
     ```
 
     This will create a production-ready build of the application in the `build` directory.
-
 
 ## About Me
 
