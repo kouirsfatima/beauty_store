@@ -1,4 +1,4 @@
-# 🦋 Welcome to beautystore Frontend
+# Welcome to beautystore Frontend
 
 ![Logo](./logo2.png)
 
@@ -13,8 +13,7 @@ Explore our website and discover the natural goodness our store has to offer. Wh
 - **Product Details:** View detailed information about each product, including ingredients, benefits, and usage instructions.
 - **Shopping Cart:** Add, update, and remove items from your shopping cart with ease.
 - **User Notifications:** Get notified about order status, stock updates, and special promotions.
-- **API Integration:** Real-time data fetching and synchronization with the backend.
-- **Responsive Design:** Seamless browsing experience across all devices.
+- **API Interaction:** The frontend communicates with the backend via API endpoints, which are simulated using Mock API for development and testing purposes. This approach allows for realistic data handling and interaction without needing a fully functional backend during the development phase.
 
 ## Technologies Used
 
